@@ -1,0 +1,31 @@
+# ── Data (not committed; obtain from the competition package) ─────────
+*.json
+*.csv
+raw/
+public/
+prepared/
+submission/
+_upload_payload/
+
+# ── Task package / instructions (internal, do not publish) ────────────
+task/
+*.pdf
+
+# ── Local dev helpers that depend on the task package ─────────────────
+run_prepare.py
+grade_local.py
+
+# ── Python ────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# ── OS / editor cruft ─────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
